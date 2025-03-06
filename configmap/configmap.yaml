@@ -11,7 +11,7 @@ kind: Pod
 metadata:
   name: testpod
 spec:
-  container:
+  containers:
     - image: nginx
       name: nginx
       envFrom:
