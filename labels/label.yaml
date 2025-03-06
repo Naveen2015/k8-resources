@@ -1,0 +1,11 @@
+apiVersion: v1
+kind: Pod
+metadata:
+  name: nginx
+  labels:
+    name: webserver
+    env: production
+spec:
+  containers:
+    - name: naveen
+      image: nginx
